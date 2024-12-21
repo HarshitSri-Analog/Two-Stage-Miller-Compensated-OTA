@@ -58,6 +58,10 @@ This design is particularly suited for:
 - **Voltage Regulation**: Integral to power management ICs for providing stable voltage references.
 - **Analog Filters**: Functions as an active component in low-pass, high-pass, and band-pass filter circuits.
 
+| ![Miller OTA]() |
+| :---: |
+| Fig 1: Two stage miller compensated OTA |
+
 ## Key Design Considerations
 Designing a high-performance two-stage OTA requires addressing several critical factors:
 1. **Gain**: Achieving an open-loop gain greater than 90dB involves optimizing the transconductance of input devices and minimizing parasitic effects.
