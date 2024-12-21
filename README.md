@@ -104,3 +104,9 @@ Contributions from the analog design community are welcome! Feel free to fork th
 
 ## Acknowledgments
 Special thanks to the Cadence Virtuoso team for providing an advanced platform for analog design and simulation. Additionally, gratitude is extended to resources and literature that guided the design process.
+
+---
+
+You can find the detailed **[Project Report]()** here for further information and in-depth analysis.
+
+***Feel free to explore the repository for detailed simulation files and analysis. If you find this repository helpful, please consider giving it a ⭐!***
