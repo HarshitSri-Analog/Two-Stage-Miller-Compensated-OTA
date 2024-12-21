@@ -107,6 +107,6 @@ Special thanks to the Cadence Virtuoso team for providing an advanced platform f
 
 ---
 
-You can find the detailed **[Project Report]()** here for further information and in-depth analysis.
+You can find the detailed **[Project Report](https://github.com/HarshitSri-Analog/Two-Stage-Miller-Compensated-OTA/blob/main/Two%20Stage%20Miller%20OTA.pdf)** here for further information and in-depth analysis.
 
 ***Feel free to explore the repository for detailed simulation files and analysis. If you find this repository helpful, please consider giving it a ⭐!***
