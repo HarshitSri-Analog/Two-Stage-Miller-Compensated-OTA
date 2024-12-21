@@ -44,6 +44,8 @@ The output stage is a common source amplifier configured to:
 
 The output stage is designed for efficiency, ensuring power consumption remains below the specified threshold.
 
+***Explaination:** The OTA (Operational Transconductance Amplifier) described in this design comprises two distinct stages. The first stage is a single-ended differential amplifier, commonly referred to as the 5-transistor differential amplifier. This stage is designed to provide high gain, increased input impedance, and improved noise rejection. The second stage is a simple common-source amplifier with a PMOS active load. This configuration is optimized to drive resistive loads effectively while enhancing the output swing of the OTA. Each of these stages has been discussed in detail in our prior [repository]().*
+
 ### Miller Compensation Integration
 Miller compensation is implemented by introducing a compensation capacitor between the first stage's output and the second stage's input. This integration allows:
 - **Pole Splitting**: The dominant pole is lowered to stabilize the amplifier while pushing higher frequency poles away from the unity-gain bandwidth.
