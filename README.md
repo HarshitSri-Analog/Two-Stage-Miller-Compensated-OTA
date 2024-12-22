@@ -1,18 +1,24 @@
 # Two-Stage Miller-Compensated OTA Design
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Specifications](#specifications)
-3. [Project Description](#project-description)
-4. [Key Design Considerations](#key-design-considerations)
-5. [Miller Compensation](#miller-compensation)
-6. [Results](#results)
-7. [How to Use](#how-to-use)
-8. [Contributions](#contributions)
-9. [Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+- [Tools Used](#Tools-Used)
+- [Specifications](#specifications)
+- [Project Description](#project-description)
+- [Key Design Considerations](#key-design-considerations)
+- [Miller Compensation](#miller-compensation)
+- [Results](#results)
+- [How to Use](#how-to-use)
+- [Contributions](#contributions)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 The two-stage Miller-compensated Operational Transconductance Amplifier (OTA) is a critical building block in analog integrated circuit design. It is widely used in systems requiring precise amplification, stable feedback loops, and high-speed operation. The design described here was implemented using Cadence Virtuoso with a focus on meeting stringent performance metrics for modern analog applications.
+
+## Tools Used
+
+- [Cadence Virtuoso Schematic Editor](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-schematic-editor.html) : The Cadence Virtuoso Schematic Editor provides numerous capabilities to facilitate fast and easy design entry, including design assistants that speed common tasks by as much as 5X. Well-defined component libraries allow faster design at both the gate and transistor levels.
+- [Cadence Virtuoso Circuit Simulator](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-fmc-analysis.html?utm_campaign=Custom_Virtuoso_Studio_product_eu_google_search_june_2023&utm_source=google&utm_medium=search&utm_content=cdn_paid_media&utm_content=Circuit_Simulation&s_kwcid=AL!14272!3!662289232220!b!!g!!circuit%20simulation&gad=1&gclid=Cj0KCQjwpompBhDZARIsAFD_Fp8Z-SxLLihhZBFwTmCU69lX0z8FEUvoFW2uLaLdkUzkxbE_Gtb2_GUaAi4xEALw_wcB) : The Cadence Spectre FMC Analysis enables fast and comprehensive design space exploration using Monte Carlo simulations of complex analog, RF, I/O, mixed-signal blocks, memories, standard cells, and bit cells while maintaining necessary statistical accuracy. It works with the Spectre X and Spectre APS Simulators and allows you to distribute Monte Carlo simulation workloads to increase throughput.
 
 ## Specifications
 | Parameter                | Specification         |
