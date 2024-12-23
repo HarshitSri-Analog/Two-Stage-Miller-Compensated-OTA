@@ -66,9 +66,9 @@ This design is particularly suited for:
 - **Voltage Regulation**: Integral to power management ICs for providing stable voltage references.
 - **Analog Filters**: Functions as an active component in low-pass, high-pass, and band-pass filter circuits.
 
-| ![BLOCKFIN drawio](https://github.com/HarshitSri-Analog/Two-Stage-Miller-Compensated-OTA/blob/main/Schematics%20%26%20Simulations/Miller%20OTA.png) | 
+| ![Miller OTA](https://github.com/HarshitSri-Analog/Two-Stage-Miller-Compensated-OTA/blob/main/Schematics%20%26%20Simulations/Miller%20OTA.png) | 
 | :---: | 
-| Fig : 2 stage miller compensated OTA |
+| Fig : Two stage miller compensated OTA |
 
 ## Key Design Considerations
 Designing a high-performance two-stage OTA requires addressing several critical factors:
@@ -109,7 +109,7 @@ The designed OTA achieves the following performance metrics:
 Contributions from the analog design community are welcome! Feel free to fork the repository, make improvements, and submit a pull request. Suggestions for further optimization are appreciated.
 
 ## Acknowledgments
-Special thanks to the Cadence Virtuoso team for providing an advanced platform for analog design and simulation. Additionally, gratitude is extended to resources and literature that guided the design process.
+Special thanks to the [Cadence Virtuoso](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virtuoso-studio.html) team for providing an advanced platform for analog design and simulation. Additionally, gratitude is extended to [R.S. Ashwin Kumar](https://home.iitk.ac.in/~ashwinrs/) Sir for an amazing lecture series on [High Frequency Analog Circuit Design](https://youtube.com/playlist?list=PLP-rjhz_nIi6YQ-RHGLA_e4eS96eLtEEj&si=8aahTTZVaM7tbvfZ) that guided the design process.
 
 ---
 
